@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu Phân hiệu Đà Nẵng - MUCE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <style>
+        .text-navy { color: #002147; }
+        .sidebar-link.active { background-color: #0d6efd; color: white !important; }
+    </style>
+</head>
+<body>
+
+    <header id="header">
+        <div class="top-header-bar bg-primary text-white">
+            <div class="container d-flex align-items-center justify-content-between py-2">
+                <a href="index.html" class="d-flex align-items-center text-decoration-none text-white">
+                    <img src="images/logo.png" alt="Logo" style="height: 60px; width: auto;">
+                    <div class="school-name-hust ps-3">
+                        <h1 class="mb-0 fs-4 fw-bold text-uppercase">Đại học Xây dựng Miền Trung</h1>
+                        <p class="mb-0 small text-uppercase">Phân hiệu tại thành phố Đà Nẵng</p>
+                    </div>
+                </a>
+                <div class="functional-links">
+                    <a href="#" class="btn btn-sm btn-outline-light">Đăng nhập</a>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg main-nav-hust shadow-sm bg-white">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="mainNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="index.html">TRANG CHỦ</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark fw-bold active" href="#" data-bs-toggle="dropdown">GIỚI THIỆU</a>
+                            <ul class="dropdown-menu shadow border-0">
+                                <li><a class="dropdown-item" href="thongdiep.html">Thông điệp từ Hiệu trưởng</a></li>
+                                <li><a class="dropdown-item" href="tongquan.html">Giới thiệu Phân hiệu ĐN</a></li>
+                                <li><a class="dropdown-item" href="cocau.html">Cơ cấu tổ chức</a></li>
+                                <li><a class="dropdown-item" href="lichsu.html">Lịch sử hình thành</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="https://tuyensinh.muce.edu.vn/" target="_blank">TUYỂN SINH</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="ctdt.html">CHƯƠNG TRÌNH ĐÀO TẠO</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="lienhe.html">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        <div class="container mt-4 mb-5">
+            <div class="row" style="align-items: flex-start;">
+                <div class="col-lg-8" data-aos="fade-up">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb bg-transparent p-0">
+                            <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none fw-bold" style="color: #002147;">TRANG CHỦ</a></li>
+                            <li class="breadcrumb-item active fw-bold text-primary" aria-current="page">GIỚI THIỆU VỀ PHÂN HIỆU TẠI ĐÀ NẴNG</li>
+                        </ol>
+                    </nav>
+
+                    <h1 class="fw-bold text-primary mb-2">GIỚI THIỆU VỀ PHÂN HIỆU TẠI ĐÀ NẴNG</h1>
+                    <div class="page-divider mb-4" style="height: 4px; width: 100px; background-color: #0d6efd;"></div>
+
+                    <div class="intro-text mb-5">
+                        <p class="fs-5 mb-4" style="text-align: justify;">Phân hiệu Trường Đại học Xây dựng Miền Trung tại thành phố Đà Nẵng là đơn vị thuộc Trường Đại học Xây dựng Miền Trung (MUCE) - là cơ sở giáo dục đại học công lập trực thuộc Bộ Xây dựng, được thành lập theo <strong style="color: #002147;">"Quyết định số 2410/QĐ – BGDĐT ngày 18 tháng 07 năm 2017"</strong> của Bộ trưởng Bộ Giáo dục và Đào tạo.</p>
+
+                        <p class="fs-5" style="text-align: justify;">Phân hiệu đào tạo theo <strong class="text-primary">"định hướng ứng dụng"</strong>, với nhiệm vụ đào tạo và bồi dưỡng cán bộ khoa học kỹ thuật trình độ đại học, nghiên cứu khoa học và chuyển giao công nghệ trong lĩnh vực xây dựng, kiến trúc và các lĩnh vực kinh tế khác.</p>
+                    </div>
+
+                    <h2 class="mt-4 mb-3 fw-bold fs-4" style="color: #002147;"><i class="fas fa-graduation-cap me-2 text-primary"></i> CÁC NGÀNH ĐÀO TẠO</h2>
+                    <p class="fs-5 fw-bold text-secondary">Hiện nay, Phân hiệu đang quản lý và đào tạo 10 ngành học gồm:</p>
+                    <div class="row mb-5">
+                        <div class="col-md-6 mb-3">
+                            <div class="list-group shadow-sm">
+                                <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Kỹ thuật xây dựng</div>
+                                <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Kỹ thuật CT giao thông</div>
+                                <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Quản lý xây dựng</div>
+                                <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Kiến trúc</div>
+                                <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Kỹ thuật cấp thoát nước</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="list-group shadow-sm">
+                                <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Logistic & Quản lý chuỗi cung ứng</div>
+                                <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Công nghệ thông tin</div>
+                                <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Công nghệ kỹ thuật ô tô</div>
+                                <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Thương mại điện tử</div>
+                                <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Quản trị kinh doanh</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="mt-5 mb-3 fw-bold fs-4" style="color: #002147;"><i class="fas fa-users me-2 text-primary"></i> ĐỘI NGŨ GIẢNG VIÊN & VIÊN CHỨC</h2>
+                    <div class="border p-4 rounded bg-white shadow-sm mb-5">
+                        <h6 class="fw-bold mb-3 text-primary">1. Nhân sự cơ hữu tại Phân hiệu:</h6>
+                        <div class="row g-2 mb-4">
+                            <div class="col-4 text-center border-end"><div class="fw-bold fs-4 text-navy">34</div><small>Tổng số</small></div>
+                            <div class="col-4 text-center border-end"><div class="fw-bold fs-4 text-navy">03</div><small>Tiến sỹ</small></div>
+                            <div class="col-4 text-center"><div class="fw-bold fs-4 text-navy">16</div><small>Thạc sỹ</small></div>
+                        </div>
+
+                        <h6 class="fw-bold mb-3 text-primary">2. Giảng viên Nhà trường hỗ trợ:</h6>
+                        <div class="row g-2">
+                            <div class="col-4 text-center border-end"><div class="fw-bold fs-4 text-primary">03</div><small>PGS</small></div>
+                            <div class="col-4 text-center border-end"><div class="fw-bold fs-4 text-primary">33</div><small>Tiến sỹ</small></div>
+                            <div class="col-4 text-center"><div class="fw-bold fs-4 text-primary">106</div><small>Thạc sỹ</small></div>
+                        </div>
+                    </div>
+
+                    <h2 class="mt-5 mb-3 fw-bold fs-4" style="color: #002147;"><i class="fas fa-toolbox me-2 text-primary"></i> CƠ SỞ VẬT CHẤT & HẠ TẦNG</h2>
+                    <div class="list-group shadow-sm mb-5">
+                        <div class="list-group-item d-flex justify-content-between align-items-center py-3">
+                            <span><i class="fas fa-map-marked-alt me-2 text-secondary"></i> Tổng diện tích đất</span>
+                            <span class="badge bg-success rounded-pill">49.297 m2</span>
+                        </div>
+                        <div class="list-group-item d-flex justify-content-between align-items-center py-3">
+                            <span><i class="fas fa-layer-group me-2 text-secondary"></i> Tổng diện tích sàn xây dựng</span>
+                            <span class="badge bg-success rounded-pill">16.765 m2</span>
+                        </div>
+                        <div class="list-group-item d-flex justify-content-between align-items-center py-3">
+                            <span><i class="fas fa-door-open me-2 text-secondary"></i> Tổng số phòng học lý thuyết</span>
+                            <span class="badge bg-success rounded-pill">32 phòng</span>
+                        </div>
+                        <div class="list-group-item d-flex justify-content-between align-items-center py-3">
+                            <span><i class="fas fa-bed me-2 text-secondary"></i> Ký túc xá</span>
+                            <span class="badge bg-success rounded-pill">360 chỗ</span>
+                        </div>
+                    </div>
+
+                    <div class="alert alert-info border-0 shadow-sm p-4">
+                        <h5 class="fw-bold"><i class="fas fa-info-circle me-2"></i> Dự án nâng cấp (2024-2026)</h5>
+                        <p class="mb-0 small">Xây dựng Nhà thi đấu đa năng (1520m2), Khu xưởng thí nghiệm (960m2) và cải tạo toàn bộ khuôn viên, thư viện theo Quyết định số 448/QĐ-BXD.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4 mt-lg-0" style="position: sticky; top: 100px; align-self: flex-start; z-index: 10;">
+                    <div class="card border-0 shadow-sm p-4 mb-4">
+                        <h5 class="fw-bold text-primary mb-3">THÔNG TIN GIỚI THIỆU</h5>
+                        <div class="list-group list-group-flush">
+                            <a href="thongdiep.html" class="list-group-item list-group-item-action border-0 rounded mb-1">Thông điệp từ hiệu trưởng</a>
+                            <a href="tongquan.html" class="list-group-item list-group-item-action active border-0 rounded mb-1">Giới thiệu Phân hiệu ĐN</a>
+                            <a href="cocau.html" class="list-group-item list-group-item-action border-0 rounded mb-1">Cơ cấu Tổ chức</a>
+                            <a href="lichsu.html" class="list-group-item list-group-item-action border-0 rounded">Lịch sử hình thành</a>
+                        </div>
+                    </div>
+
+                    <div class="card bg-primary text-white p-4 text-center border-0 shadow-sm">
+                        <h6 class="fw-bold">Tuyển sinh 2026</h6>
+                        <p class="small opacity-75">Cơ hội trở thành kỹ sư, kiến trúc sư tương lai.</p>
+                        <a href="https://tuyensinh.muce.edu.vn/" target="_blank" class="btn btn-sm btn-light fw-bold text-primary px-4 shadow-sm">Đăng ký ngay</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer bg-dark text-white pt-5 pb-3 mt-5">
+        <div class="container text-center text-md-start">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h5 class="fw-bold text-white">MUCE ĐÀ NẴNG</h5>
+                    <p class="small text-white-50">544 Nguyễn Lương Bằng, Hòa Hiệp Nam, Liên Chiểu, Đà Nẵng</p>
+                </div>
+                <div class="col-lg-6 text-md-end">
+                    <p class="small text-secondary">© 2026 Bản quyền thuộc về MUCE Đà Nẵng</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 800, once: true });
+    </script>
+</body>
+</html>
