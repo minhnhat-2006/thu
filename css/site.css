@@ -1,0 +1,224 @@
+﻿/* ================================================= */
+/* 1. THIẾT LẬP CHUNG (GLOBAL)                       */
+/* ================================================= */
+html {
+    zoom: 0.9;
+}
+
+body {
+    padding-top: 155px !important;
+    background-color: #fcfcfc;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+/* ================================================= */
+/* 2. HEADER CỐ ĐỊNH (FIXED HEADER)                  */
+/* ================================================= */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.top-header-bar {
+    background-color: #002147 !important;
+    color: #ffffff !important;
+    padding: 8px 0;
+}
+
+.school-name-hust h1 {
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin: 0;
+    color: #ffffff;
+}
+
+.school-name-hust p {
+    font-size: 0.75rem;
+    margin: 0;
+    opacity: 0.8;
+}
+
+.main-nav-hust {
+    background-color: #001a35 !important;
+    border: none !important;
+}
+
+    .main-nav-hust .nav-link {
+        color: #ffffff !important;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 15px 18px !important;
+    }
+
+        .main-nav-hust .nav-link:hover {
+            color: #f1c40f !important;
+        }
+
+    /* Dropdown Menu Customization */
+    .main-nav-hust .dropdown-menu {
+        background-color: #ffffff !important;
+        border: none;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        border-radius: 0 0 8px 8px;
+    }
+
+    .main-nav-hust .dropdown-item {
+        color: #002147 !important;
+        font-weight: 600;
+        padding: 10px 20px;
+    }
+
+        .main-nav-hust .dropdown-item:hover {
+            background-color: #f0f7ff;
+            color: #0d6efd !important;
+        }
+
+/* ================================================= */
+/* 3. SIDEBAR TỐI GIẢN (FIXED ARROWS)                */
+/* ================================================= */
+.sidebar-menu {
+    background-color: #ffffff !important;
+    border: 1px solid #dee2e6 !important;
+    border-radius: 12px !important;
+    overflow: hidden;
+    position: sticky;
+    top: 170px;
+    padding: 0 !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.sidebar-title {
+    background-color: #002147 !important;
+    color: #ffffff !important;
+    padding: 18px 20px !important;
+    font-weight: 700 !important;
+    margin: 0 !important;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.sidebar-link {
+    display: block !important;
+    padding: 14px 20px !important;
+    color: #444 !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid #f1f1f1 !important;
+    transition: all 0.2s ease-in-out !important;
+    font-weight: 500;
+}
+
+    /* Triệt để loại bỏ mũi tên giả lập */
+    .sidebar-link::after, .sidebar-item-link::after {
+        display: none !important;
+        content: none !important;
+    }
+
+    .sidebar-link:hover {
+        background-color: #f8f9fa !important;
+        color: #0d6efd !important;
+        padding-left: 28px !important;
+    }
+
+    .sidebar-link.active {
+        background-color: #0d6efd !important;
+        color: #ffffff !important;
+        font-weight: 700;
+    }
+
+/* ================================================= */
+/* 4. TRANG CHỦ & NỘI DUNG (HERO & COMPONENTS)       */
+/* ================================================= */
+.hero-section {
+    min-height: 500px;
+    margin-top: -5px;
+    background-position: center;
+    background-size: cover;
+}
+
+.page-main-title {
+    color: #002147;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.page-divider {
+    border-top: 4px solid #0d6efd;
+    width: 60px;
+    opacity: 1;
+    margin-bottom: 25px;
+}
+
+/* Stats Bar Borders */
+.border-right-custom {
+    border-right: 1px solid #dee2e6;
+}
+
+@media (max-width: 768px) {
+    .border-right-custom {
+        border-right: none !important;
+        border-bottom: 1px solid #dee2e6;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+/* Cards & Icons */
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.hover-up {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .hover-up:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important;
+    }
+
+/* ================================================= */
+/* 5. FOOTER & ANIMATIONS                            */
+/* ================================================= */
+.main-footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 60px 0 30px;
+    margin-top: 50px;
+}
+
+@media (min-width: 992px) {
+    /* Hover effect for Dropdown */
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    .main-nav-hust .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(15px);
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+/* Rotate arrow on hover */
+.nav-item.dropdown:hover .nav-link.dropdown-toggle::after {
+    transform: rotate(180deg);
+}
+
+.nav-link.dropdown-toggle::after {
+    transition: transform 0.3s ease;
+}
