@@ -1,1 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ - MUCE Đà Nẵng</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <header id="header">
+        <div class="top-header-bar bg-primary text-white">
+            <div class="container d-flex align-items-center justify-content-between py-2">
+                <a href="index.html" class="d-flex align-items-center text-decoration-none text-white">
+                    <img src="images/logo.png" alt="Logo" style="height: 60px; width: auto;">
+                    <div class="school-name-hust ps-3">
+                        <h1 class="mb-0 fs-4 fw-bold">ĐẠI HỌC XÂY DỰNG MIỀN TRUNG</h1>
+                        <p class="mb-0 small">PHÂN HIỆU TẠI THÀNH PHỐ ĐÀ NẴNG</p>
+                    </div>
+                </a>
+                <div class="functional-links">
+                    <a href="#" class="btn btn-sm btn-outline-light">Đăng nhập</a>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg main-nav-hust shadow-sm bg-white">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="mainNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="index.html">TRANG CHỦ</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark fw-bold" href="#" data-bs-toggle="dropdown">GIỚI THIỆU</a>
+                            <ul class="dropdown-menu shadow border-0">
+                                <li><a class="dropdown-item" href="tongquan.html">Giới thiệu Phân hiệu ĐN</a></li>
+                                <li><a class="dropdown-item" href="cocau.html">Cơ cấu tổ chức</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="https://tuyensinh.muce.edu.vn/" target="_blank">TUYỂN SINH</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="ctdt.html">CHƯƠNG TRÌNH ĐÀO TẠO</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark fw-bold" href="lienhe.html">LIÊN HỆ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+   <main role="main" class="container my-5">
+    <div class="row pt-5">
+        <div class="col-lg-4 text-center">
+            <img src="images/hieutruong.jpg" class="img-fluid rounded shadow" alt="Hiệu trưởng">
+        </div>
+        <div class="col-lg-8">
+            <h2 class="text-primary fw-bold">THÔNG ĐIỆP TỪ HIỆU TRƯỞNG</h2>
+            <hr class="border-primary border-3 w-25">
+            <p class="lead">Chào mừng các bạn đến với MUCE Đà Nẵng...</p>
+            <p>Nội dung chi tiết thông điệp ở đây...</p>
+        </div>
+    </div>
+</main>
+
+    <footer class="main-footer bg-dark text-white pt-5 pb-3 mt-5">
+        <div class="container text-center text-md-start">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h5 class="fw-bold text-white">MUCE ĐÀ NẴNG</h5>
+                    <p class="small text-white-50">544 Nguyễn Lương Bằng, Hòa Hiệp Nam, Liên Chiểu, Đà Nẵng</p>
+                </div>
+                <div class="col-lg-6 text-md-end">
+                    <p class="small text-secondary">© 2026 Bản quyền thuộc về MUCE Đà Nẵng</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 800, once: true });
+    </script>
+</body>
+</html>
