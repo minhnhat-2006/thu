@@ -1,0 +1,112 @@
+﻿@page
+@model thu.Pages.GioiThieu.CoCauModel
+@{
+    ViewData["Title"] = "CƠ CẤU TỔ CHỨC BỘ MÁY";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-lg-8">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb" style="background: transparent; padding-left: 0;">
+                    <li class="breadcrumb-item"><a href="/" class="text-decoration-none" style="color: #002147; font-weight: 700;">TRANG CHỦ</a></li>
+                    <li class="breadcrumb-item active" aria-current="page" style="color: #0d6efd; font-weight: 700;">@ViewData["Title"]</li>
+                </ol>
+            </nav>
+
+            <h1 class="page-main-title">@ViewData["Title"]</h1>
+            <div class="page-divider"></div>
+
+            <div class="card bg-info-subtle border-0 mb-5 shadow-sm">
+                <div class="card-body p-4">
+                    <h2 class="mt-0 mb-3 text-info fw-bold fs-4">
+                        <i class="fas fa-landmark me-3"></i> HỘI ĐỒNG PHÂN HIỆU TRƯỜNG
+                    </h2>
+                    <p class="fs-6 mb-0 text-dark" style="text-align: justify;">
+                        Hội đồng Phân hiệu trường bao gồm: cán bộ lãnh đạo, đại diện giảng viên trong Phân hiệu. Ngoài ra, Hội đồng mời đại diện các nhà quản lý, doanh nghiệp, nhà khoa học tham gia.
+                    </p>
+                </div>
+            </div>
+
+            <h2 class="mt-4 mb-3 text-primary fw-bold fs-4"><i class="fas fa-user-tie me-2"></i> BAN GIÁM ĐỐC</h2>
+            <div class="border p-4 rounded shadow-sm bg-white mb-5">
+                <dl class="row mb-0">
+                    <dt class="col-sm-4 fw-bold" style="color: #002147;">GIÁM ĐỐC PHÂN HIỆU</dt>
+                    <dd class="col-sm-8 text-secondary">
+                        Thực hiện chế độ thủ trưởng chịu trách nhiệm trước Hiệu trưởng Trường Đại học Xây dựng Miền Trung về toàn bộ hoạt động của Phân hiệu theo pháp luật và quy chế.
+                    </dd>
+                    <div class="col-12"><hr class="my-3 opacity-10"></div>
+                    <dt class="col-sm-4 fw-bold" style="color: #002147;">CÁC PHÓ GIÁM ĐỐC</dt>
+                    <dd class="col-sm-8 text-secondary">
+                        Giúp việc cho Giám đốc phân hiệu thực hiện theo chức trách, nhiệm vụ của các lĩnh vực phụ trách được phân công.
+                    </dd>
+                </dl>
+            </div>
+
+            <h2 class="mt-4 mb-3 text-primary fw-bold fs-4"><i class="fas fa-cogs me-2"></i> CÁC PHÒNG CHỨC NĂNG</h2>
+            <div class="list-group list-group-flush shadow-sm rounded border mb-5">
+                <div class="list-group-item d-flex align-items-center py-3">
+                    <i class="fas fa-desktop me-3 text-primary"></i> <span>Phòng Quản lý đào tạo - CT HSSV</span>
+                </div>
+                <div class="list-group-item d-flex align-items-center py-3">
+                    <i class="fas fa-building me-3 text-primary"></i> <span>Phòng Tổ chức Hành chính – Quản trị</span>
+                </div>
+                <div class="list-group-item d-flex align-items-center py-3">
+                    <i class="fas fa-file-invoice-dollar me-3 text-primary"></i> <span>Phòng Tài chính Kế toán</span>
+                </div>
+                <div class="list-group-item d-flex align-items-center py-3">
+                    <i class="fas fa-globe me-3 text-primary"></i> <span>Phòng QLKH và Hợp tác quốc tế</span>
+                </div>
+            </div>
+
+            <h2 class="mt-4 mb-3 text-primary fw-bold fs-4"><i class="fas fa-chalkboard-teacher me-2"></i> CÁC KHOA ĐÀO TẠO</h2>
+            <div class="row g-3 mb-5">
+                <div class="col-12">
+                    <div class="p-4 border rounded bg-white shadow-sm">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-3"><i class="fas fa-angle-right text-primary me-2"></i> Khoa Khoa học cơ bản (CB01)</li>
+                                    <li class="mb-3"><i class="fas fa-angle-right text-primary me-2"></i> Khoa Cầu đường (CD01)</li>
+                                    <li class="mb-3"><i class="fas fa-angle-right text-primary me-2"></i> Khoa Điện công nghiệp (DN02)</li>
+                                    <li class="mb-3"><i class="fas fa-angle-right text-primary me-2"></i> Khoa Điện tử viễn thông (DT01)</li>
+                                    <li class="mb-3"><i class="fas fa-angle-right text-primary me-2"></i> Khoa Hạ tầng đô thị (HT03)</li>
+                                    <li class=""><i class="fas fa-angle-right text-primary me-2"></i> Khoa Kiến trúc (KT01)</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-unstyled mb-0">
+                                    <li class="mb-3"><i class="fas fa-angle-right text-primary me-2"></i> Khoa Kinh tế (KT02)</li>
+                                    <li class="mb-3"><i class="fas fa-angle-right text-primary me-2"></i> Khoa Kinh tế xây dựng (KX01)</li>
+                                    <li class="mb-3"><i class="fas fa-angle-right text-primary me-2"></i> Khoa Lý luận chính trị (ML02)</li>
+                                    <li class="mb-3"><i class="fas fa-angle-right text-primary me-2"></i> Khoa Tài nguyên môi trường (MT04)</li>
+                                    <li class="mb-3"><i class="fas fa-angle-right text-primary me-2"></i> Khoa Công nghệ thông tin (TT01)</li>
+                                    <li class=""><i class="fas fa-angle-right text-primary me-2"></i> Khoa Xây dựng (XD01)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="sidebar-menu shadow-sm">
+                <h5 class="sidebar-title">Thông tin Giới thiệu</h5>
+				<div class="list-unstyled mb-0">
+					<a href="/GioiThieu/ThongDiep" class="sidebar-link">Thông điệp từ hiệu trưởng</a>
+                    <a href="/GioiThieu/TongQuan" class="sidebar-link">Giới thiệu Phân hiệu ĐN</a>
+                    
+                    <a href="/GioiThieu/CoCau" class="sidebar-link active">Cơ cấu Tổ chức</a>
+                    <a href="/GioiThieu/LichSu" class="sidebar-link">Lịch sử hình thành</a>
+                </div>
+            </div>
+
+            <div class="sidebar-ad mt-4 text-center">
+                <h6 class="fw-bold">Tuyển sinh 2026</h6>
+                <p class="small text-white-50">Hệ thống đăng ký trực tuyến đã mở.</p>
+                <a href="/TuyenSinh" class="btn btn-sm btn-light fw-bold text-primary px-4 shadow-sm">Đăng ký ngay</a>
+            </div>
+        </div>
+    </div>
+</div>

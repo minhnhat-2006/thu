@@ -1,0 +1,68 @@
+﻿@page
+@model thu.Pages.GioiThieu.ThongDiepModel
+@{
+    ViewData["Title"] = "THÔNG ĐIỆP CỦA HIỆU TRƯỞNG";
+}
+
+<div class="container mt-4">
+    <div class="row" style="align-items: flex-start;">
+        @* CỘT NỘI DUNG CHÍNH *@
+        <div class="col-lg-8">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb" style="background: transparent; padding-left: 0;">
+                    <li class="breadcrumb-item"><a href="/" class="text-decoration-none" style="color: #002147; font-weight: 700;">TRANG CHỦ</a></li>
+                    <li class="breadcrumb-item active" aria-current="page" style="color: #0d6efd; font-weight: 700;">@ViewData["Title"]</li>
+                </ol>
+            </nav>
+
+            <h1 class="page-main-title">@ViewData["Title"]</h1>
+            <div class="page-divider"></div>
+
+            <div class="message-content">
+                <div class="mb-4">
+                    <img src="~/images/hieutruong.jpg" alt="Chân dung Hiệu trưởng" class="img-fluid rounded shadow message-image w-100 mb-3">
+                    <p class="fs-5 fw-bold" style="color: #002147;">Kính thưa quý vị đại biểu, quý thầy cô, các em sinh viên thân mến,</p>
+                </div>
+
+                <p class="fs-5" style="text-align: justify;">Tôi vô cùng tự hào khi được đứng trước quý vị hôm nay, trong hành trình gần nửa thế kỷ hình thành và phát triển của Trường Đại học Xây dựng Miền Trung. Từ những ngày đầu còn là một cơ sở đào tạo nhỏ bé, đến nay chúng ta đã trở thành một địa chỉ uy tín trong lĩnh vực xây dựng, kiến trúc và kỹ thuật, góp phần quan trọng vào sự phát triển hạ tầng và đô thị của khu vực miền Trung – Tây Nguyên và cả nước.</p>
+
+                <p class="fs-5" style="text-align: justify;">Sứ mệnh của chúng ta là đào tạo nguồn nhân lực chất lượng cao, có tri thức vững vàng, kỹ năng thực hành thành thạo và đạo đức nghề nghiệp trong sáng. Tôi tin rằng mỗi sinh viên MUCE sẽ mang trong mình khát vọng dựng xây quê hương, trở thành những kỹ sư, kiến trúc sư, nhà quản lý có tâm – có tầm.</p>
+
+                <blockquote class="blockquote message-quote my-4 p-4 rounded shadow-sm" style="border-left: 5px solid #0d6efd; background-color: #f8f9fa;">
+                    <p class="mb-0 fs-5 fst-italic" style="color: #444;">Tầm nhìn của nhà trường là trở thành cơ sở giáo dục đại học hàng đầu trong lĩnh vực xây dựng, từng bước hội nhập quốc tế, đưa thương hiệu MUCE vươn xa. Để đạt được điều đó, chúng ta kiên định với những giá trị cốt lõi: <strong class="text-primary">Chất lượng – Hiệu quả – Sáng tạo – Hội nhập</strong>.</p>
+                </blockquote>
+
+                <p class="fs-5" style="text-align: justify;">Tôi mong muốn đội ngũ giảng viên và cán bộ của trường sẽ tiếp tục giữ vững tinh thần trách nhiệm, đổi mới phương pháp giảng dạy, tăng cường nghiên cứu khoa học và mở rộng hợp tác quốc tế. Chính sự tận tâm và sáng tạo của quý thầy cô sẽ là nền tảng để MUCE phát triển mạnh mẽ.</p>
+
+                <p class="fs-5" style="text-align: justify;">Các em sinh viên thân mến, tôi muốn gửi gắm đến các em một niềm tin: hãy nuôi dưỡng khát vọng, rèn luyện bản lĩnh, phát huy trí tuệ và tinh thần sáng tạo. Tương lai của đất nước sẽ được dựng xây từ chính đôi tay và khối óc của các em.</p>
+
+                <div class="message-signature mt-5 text-end border-top pt-3">
+                    <p class="mb-0">Trân trọng,</p>
+                    <div style="height: 60px;"></div>
+                    <p class="fw-bold fs-5 mb-0" style="color: #002147;">PGS.TS. Huỳnh Ngọc Hào</p>
+                    <p class="fst-italic text-muted small">(Hiệu trưởng)</p>
+                </div>
+            </div>
+        </div>
+
+        @* SIDEBAR ĐÃ CỐ ĐỊNH KHOẢNG TRẮNG 175PX *@
+        <div class="col-lg-4" style="position: sticky; top: 175px; align-self: flex-start; z-index: 10;">
+            <div class="sidebar-menu shadow-sm">
+                <h5 class="sidebar-title">THÔNG TIN GIỚI THIỆU</h5>
+                <div class="list-unstyled mb-0">
+                    <a href="/GioiThieu/ThongDiep" class="sidebar-link active">Thông điệp từ hiệu trưởng</a>
+                    <a href="/GioiThieu/TongQuan" class="sidebar-link">Giới thiệu Phân hiệu ĐN</a>
+                    <a href="/GioiThieu/CoCau" class="sidebar-link">Cơ cấu Tổ chức</a>
+                    <a href="/GioiThieu/LichSu" class="sidebar-link">Lịch sử hình thành</a>
+                   
+                </div>
+            </div>
+
+            <div class="sidebar-ad mt-4 text-center">
+                <h6 class="fw-bold">Tuyển sinh 2027</h6>
+                <p class="small text-white-50">Thông tin tuyển sinh mới nhất đã được cập nhật.</p>
+                <a href="/TuyenSinh" class="btn btn-sm btn-light fw-bold text-primary px-4 shadow-sm">Đăng ký ngay</a>
+            </div>
+        </div>
+    </div>
+</div>

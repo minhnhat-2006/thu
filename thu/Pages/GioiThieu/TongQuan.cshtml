@@ -1,0 +1,119 @@
+﻿@page
+@model thu.Pages.GioiThieu.TongQuanModel
+@{
+    ViewData["Title"] = "GIỚI THIỆU VỀ PHÂN HIỆU TẠI ĐÀ NẴNG";
+}
+
+<div class="container mt-4">
+    <div class="row" style="align-items: flex-start;">
+        @* Thêm dòng này để bổ trợ cho sticky *@
+        <div class="col-lg-8">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb" style="background: transparent; padding-left: 0;">
+                    <li class="breadcrumb-item"><a href="/" class="text-decoration-none" style="color: #002147; font-weight: 700;">TRANG CHỦ</a></li>
+                    <li class="breadcrumb-item active" aria-current="page" style="color: #0d6efd; font-weight: 700;">@ViewData["Title"]</li>
+                </ol>
+            </nav>
+
+            <h1 class="page-main-title">@ViewData["Title"]</h1>
+            <div class="page-divider"></div>
+
+            <div class="intro-text mb-5">
+                <p class="fs-5 mb-4" style="text-align: justify;">Phân hiệu Trường Đại học Xây dựng Miền Trung tại thành phố Đà Nẵng là đơn vị thuộc Trường Đại học Xây dựng Miền Trung (MUCE) - là cơ sở giáo dục đại học công lập trực thuộc Bộ Xây dựng, được thành lập theo <strong style="color: #002147;">"Quyết định số 2410/QĐ – BGDĐT ngày 18 tháng 07 năm 2017"</strong> của Bộ trưởng Bộ Giáo dục và Đào tạo.</p>
+
+                <p class="fs-5" style="text-align: justify;">Phân hiệu đào tạo theo <strong class="text-primary">"định hướng ứng dụng"</strong>, với nhiệm vụ đào tạo và bồi dưỡng cán bộ khoa học kỹ thuật trình độ đại học, nghiên cứu khoa học và chuyển giao công nghệ trong lĩnh vực xây dựng, kiến trúc và các lĩnh vực kinh tế khác.</p>
+            </div>
+
+            <h2 class="mt-4 mb-3 fw-bold fs-4" style="color: #002147;"><i class="fas fa-graduation-cap me-2 text-primary"></i> CÁC NGÀNH ĐÀO TẠO</h2>
+            <p class="fs-5 fw-bold text-secondary">Hiện nay, Phân hiệu đang quản lý và đào tạo 10 ngành học gồm:</p>
+            <div class="row mb-5">
+                <div class="col-md-6">
+                    <div class="list-group list-group-flush border rounded shadow-sm">
+                        <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Kỹ thuật xây dựng</div>
+                        <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Kỹ thuật CT giao thông</div>
+                        <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Quản lý xây dựng</div>
+                        <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Kiến trúc</div>
+                        <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Kỹ thuật cấp thoát nước</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="list-group list-group-flush border rounded shadow-sm">
+                        <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Logistic & Quản lý chuỗi cung ứng</div>
+                        <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Công nghệ thông tin</div>
+                        <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Công nghệ kỹ thuật ô tô</div>
+                        <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Thương mại điện tử</div>
+                        <div class="list-group-item"><i class="fas fa-check text-success me-2"></i> Quản trị kinh doanh</div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="mt-5 mb-3 fw-bold fs-4" style="color: #002147;"><i class="fas fa-users me-2 text-primary"></i> ĐỘI NGŨ GIẢNG VIÊN & VIÊN CHỨC</h2>
+            <div class="border p-4 rounded bg-white shadow-sm mb-5">
+                <h6 class="fw-bold mb-3 text-primary">1. Nhân sự cơ hữu tại Phân hiệu:</h6>
+                <div class="row g-2 mb-4">
+                    <div class="col-4 text-center border-end"><div class="fw-bold fs-4 text-navy">34</div><small>Tổng số</small></div>
+                    <div class="col-4 text-center border-end"><div class="fw-bold fs-4 text-navy">03</div><small>Tiến sỹ</small></div>
+                    <div class="col-4 text-center"><div class="fw-bold fs-4 text-navy">16</div><small>Thạc sỹ</small></div>
+                </div>
+
+                <h6 class="fw-bold mb-3 text-primary">2. Giảng viên Nhà trường hỗ trợ:</h6>
+                <div class="row g-2">
+                    <div class="col-4 text-center border-end"><div class="fw-bold fs-4 text-primary">03</div><small>PGS</small></div>
+                    <div class="col-4 text-center border-end"><div class="fw-bold fs-4 text-primary">33</div><small>Tiến sỹ</small></div>
+                    <div class="col-4 text-center"><div class="fw-bold fs-4 text-primary">106</div><small>Thạc sỹ</small></div>
+                </div>
+            </div>
+
+            <h2 class="mt-5 mb-3 fw-bold fs-4" style="color: #002147;"><i class="fas fa-toolbox me-2 text-primary"></i> CƠ SỞ VẬT CHẤT & HẠ TẦNG</h2>
+            <div class="list-group list-group-flush border rounded shadow-sm mb-5">
+                <div class="list-group-item d-flex justify-content-between align-items-center py-3">
+                    <span><i class="fas fa-map-marked-alt me-2 text-secondary"></i> Tổng diện tích đất</span>
+                    <span class="badge bg-success rounded-pill">49.297 m2</span>
+                </div>
+                <div class="list-group-item d-flex justify-content-between align-items-center py-3">
+                    <span><i class="fas fa-layer-group me-2 text-secondary"></i> Tổng diện tích sàn xây dựng</span>
+                    <span class="badge bg-success rounded-pill">16.765 m2</span>
+                </div>
+                <div class="list-group-item d-flex justify-content-between align-items-center py-3">
+                    <span><i class="fas fa-door-open me-2 text-secondary"></i> Tổng số phòng học lý thuyết</span>
+                    <span class="badge bg-success rounded-pill">32 phòng</span>
+                </div>
+                <div class="list-group-item d-flex justify-content-between align-items-center py-3">
+                    <span><i class="fas fa-bed me-2 text-secondary"></i> Ký túc xá</span>
+                    <span class="badge bg-success rounded-pill">360 chỗ</span>
+                </div>
+            </div>
+
+            <div class="alert alert-info border-0 shadow-sm p-4">
+                <h5 class="fw-bold"><i class="fas fa-info-circle me-2"></i> Dự án nâng cấp (2024-2026)</h5>
+                <p class="mb-0 small">Xây dựng Nhà thi đấu đa năng (1520m2), Khu xưởng thí nghiệm (960m2) và cải tạo toàn bộ khuôn viên, thư viện theo Quyết định số 448/QĐ-BXD.</p>
+            </div>
+        </div>
+
+        @* CẬP NHẬT SIDEBAR: top: 175px và z-index chuẩn *@
+        <div class="col-lg-4" style="position: sticky; top: 175px; align-self: flex-start; z-index: 10;">
+            <div class="sidebar-menu shadow-sm">
+                <h5 class="sidebar-title">THÔNG TIN GIỚI THIỆU</h5>
+                <div class="list-unstyled mb-0">
+                    <a href="/GioiThieu/ThongDiep" class="sidebar-link">Thông điệp từ hiệu trưởng</a>
+                    <a href="/GioiThieu/TongQuan" class="sidebar-link active">Giới thiệu Phân hiệu ĐN</a>
+                    <a href="/GioiThieu/CoCau" class="sidebar-link">Cơ cấu Tổ chức</a>
+                    <a href="/GioiThieu/LichSu" class="sidebar-link">Lịch sử hình thành</a>
+                   
+                </div>
+            </div>
+
+            <div class="sidebar-ad mt-4 text-center">
+                <h6 class="fw-bold">Tuyển sinh 2027</h6>
+                <p class="small text-white-50">Cơ hội trở thành kỹ sư, kiến trúc sư tương lai.</p>
+                <a href="/TuyenSinh" class="btn btn-sm btn-light fw-bold text-primary px-4 shadow-sm">Đăng ký ngay</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .text-navy {
+        color: #002147;
+    }
+</style>
